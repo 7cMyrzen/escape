@@ -68,13 +68,63 @@ span {
 }
 
 .main-div {
-
+    display: flex;
+    align-items: center;
+    border: 5px solid aliceblue;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    margin-top: 100px;
+    box-sizing: border-box;
+    transition: .5s;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .text-div {
-
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: auto;
+    width: 40vw;
+    margin: 15px;
+    overflow: hidden;
+    color: gold;
+    font-family: Apple Chancery, cursive;
 }
 
-.other-div {
+.img1-div {
+    background-color: black;
+    border: 5px solid aliceblue;
+    border-radius: 10px;
+    display: flex;
+    width: 464px;
+    height: 256px;
+    margin: 15px;
+    overflow: hidden;
+}
 
+.img2-div {
+    background-color: black;
+    border: 5px solid aliceblue;
+    border-radius: 10px;
+    display: flex;
+    width: 582px;
+    height: 326px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.img3-div {
+    background-color: black;
+    border: 5px solid aliceblue;
+    border-radius: 10px;
+    display: flex;
+    width: 425px;
+    height: 275px;
+    margin: 15px;
+    overflow: hidden;
 }
