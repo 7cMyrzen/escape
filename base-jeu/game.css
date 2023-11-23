@@ -84,8 +84,12 @@ span {
     height: 75vh;
     width: 95vw;
     border: 1px solid gold;
+    border-radius: 30px;
     margin: 0px;
     margin-top: 120px;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+    overflow: hidden;
 }
 
 .game {
@@ -93,4 +97,6 @@ span {
     width: auto;
     height: auto;
     overflow: hidden;
+    border: 3px solid aliceblue;
+    border-radius: 30px;
 }
