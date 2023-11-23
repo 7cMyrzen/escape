@@ -1,0 +1,26 @@
+Coordo
+
+prison-couloir : 
+    - porte = 370,90 / 460,333
+    - sortie gauche = 120,100 / 185,380
+    - sortie droite = 680,130 / 750,330
+
+prison-porte :
+    - porte = 910,430 / 1020,655
+    - porte droite = 1240,290 / 1385,825
+    - boitier elec = 410,165 / 570,530
+
+bureau :
+    - bureau = 696,545 / 1145,800
+    - livre gauche = 660,300 / 765,480
+    - livre droite = 975,310 / 1185,485
+
+manoir-porte :
+    - 
+    - 
+    - 
+
+ville-rue :
+    - 
+    - 
+    - 
