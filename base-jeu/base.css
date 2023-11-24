@@ -97,7 +97,8 @@ span {
     width: 65%;
     height: 100%;
     overflow: hidden;
-
+    border: 3px solid aliceblue;
+    border-radius: 30px;
     margin: 10px;
     justify-content: center;
     align-items: center;
@@ -109,8 +110,6 @@ span {
     width: auto;
     height: auto;
     transition: .5s;
-    border: 3px solid aliceblue;
-    border-radius: 30px;
     overflow: hidden;
 }
 
