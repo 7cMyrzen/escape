@@ -4,7 +4,7 @@ body {
 }
 
 body {
-    background: url('../Ressources/image/Fond/fond-acceuil.jpg') no-repeat center center fixed;
+    background: url('../Ressources/image/Fond/fond-accueil.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@ body {
     justify-content: space-around;
     align-items: center;
     backdrop-filter: blur(100px);
-    border-bottom: 1px solid gold;
+    border-bottom: 1px solid rgb(175, 6, 6);
     transition: .5s;
 }
 
@@ -96,7 +96,7 @@ span {
     width: 65%;
     height: 100%;
     overflow: hidden;
-    border: 3px solid aliceblue;
+    border: 3px solid rgb(175, 6, 6);
     border-radius: 30px;
     margin: 10px;
     justify-content: center;
@@ -123,7 +123,7 @@ span {
     background-size: 100%;
     backdrop-filter: blur(100px);
     transition: .5s;
-    border: 3px solid gold;
+    border: 3px solid rgb(175, 6, 6);
     border-radius: 30px;
     overflow: hidden;
     margin: 10px;
