@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Escape</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/main.css"> 
+    <link rel="stylesheet" href="../CSS/modal-game.css">
+    <link rel="stylesheet" href="../CSS/couloir.css"> 
+    <link rel="icon" href="../Ressources/image/Logo/logo.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <h2 class="title">Escape<span></span></h2>
+        <nav class="navigation">
+            <a href="settings.html">Settings</a>
+            <a href="accueil.html">Accueil</a>
+        </nav>
+    </header>
+
+    <div class="main-div">
+        <div class="game-nodal">
+            <div class="game-img" id="gimg-B1">
+                <map name="bureau-map1">
+                    <area shape="rect" coords="692,212,767,331" alt="Porte-bibliotheque" data-modal-target="#modal-B1-PB" target="_blank">
+                    <area shape="rect" coords="443,370,744,543" alt="Bureau-code" data-modal-target="#modal-B1-BC" target="_blank">
+                    <area shape="rect" coords="420,204,501,331" alt="Bureau-bibliothequeG" data-modal-target="#modal-B1-BG" target="_blank">
+                    <area shape="rect" coords="630,210,676,329" alt="Bureau-bibliothequeD" data-modal-target="#modal-B1-BD" target="_blank">
+
+                </map> 
+                
+                <img usemap="#bureau-map1" src="../Ressources/image/Endroit/bureau.png" alt="bureau1" />
+            </div>
+            <!--
+
+            <div class="game-img">
+                <map name="prisonmap">
+                    <area shape="rect" coords="518,115,650,462" alt="EscalierST" data-modal-target="#modal" target="_blank">
+                    <area shape="rect" coords="123,97,193,413" alt="Porte-gauche" href="../HTML/accueil.html" target="_blank">
+                </map> 
+                
+                <img usemap="#prisonmap" src="../Ressources/image/Endroit/prison-couloir.jpg" alt="prisonCellule" />
+            </div>
+
+            <div class="game-img">
+                <map name="prisonmap">
+                    <area shape="rect" coords="518,115,650,462" alt="EscalierST" data-modal-target="#modal" target="_blank">
+                    <area shape="rect" coords="123,97,193,413" alt="Porte-gauche" href="../HTML/accueil.html" target="_blank">
+                </map> 
+                
+                <img usemap="#prisonmap" src="../Ressources/image/Endroit/prison-couloir.jpg" alt="prisonCellule" />
+            </div>
+
+            <div class="game">
+            <div class="game-img">
+                <map name="prisonmap">
+                    <area shape="rect" coords="518,115,650,462" alt="EscalierST" data-modal-target="#modal" target="_blank">
+                    <area shape="rect" coords="123,97,193,413" alt="Porte-gauche" href="../HTML/accueil.html" target="_blank">
+                </map> 
+                
+                <img usemap="#prisonmap" src="../Ressources/image/Endroit/prison-couloir.jpg" alt="prisonCellule" />
+            </div>
+
+            <div class="game">
+            <div class="game-img">
+                <map name="prisonmap">
+                    <area shape="rect" coords="518,115,650,462" alt="EscalierST" data-modal-target="#modal" target="_blank">
+                    <area shape="rect" coords="123,97,193,413" alt="Porte-gauche" href="../HTML/accueil.html" target="_blank">
+                </map> 
+                
+                <img usemap="#prisonmap" src="../Ressources/image/Endroit/prison-couloir.jpg" alt="prisonCellule" />
+            </div>
+
+            <div class="game">
+            <div class="game-img">
+                <map name="prisonmap">
+                    <area shape="rect" coords="518,115,650,462" alt="EscalierST" data-modal-target="#modal" target="_blank">
+                    <area shape="rect" coords="123,97,193,413" alt="Porte-gauche" href="../HTML/accueil.html" target="_blank">
+                </map> 
+                
+                <img usemap="#prisonmap" src="../Ressources/image/Endroit/prison-couloir.jpg" alt="prisonCellule" />
+            </div>
+
+            -->
+        </div>
+        
+        <div class="inventory">
+                <div class="inventory-header">
+                    <h3>Inventory</h3>
+                </div>
+                <div class="inventory-body">
+                    <div class="inventory-body-elmt"></div>
+                    <div class="inventory-body-elmt"></div>
+                    <div class="inventory-body-elmt"></div>
+                    <div class="inventory-body-elmt"></div>
+                    <div class="inventory-body-elmt"></div>
+                    <div class="inventory-body-elmt"></div>
+                    <div class="inventory-body-elmt"></div>
+                    <div class="inventory-body-elmt"></div>
+                    <div class="inventory-body-elmt"></div>
+                    <div class="inventory-body-elmt"></div>
+                </div>
+        </div>
+
+    </div>
+
+
+
+    <!-- Partie reservee au "modal du jeu" -->
+
+
+
+    <!-- Modal pour le bureau de depart --> 
+
+    <div class="fgmodal" id="modal-B1-PB">
+        <div class="modal-header">
+            <div class="modal-title">Escalier vers le souterrain</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>
+                Vous avez trouvé un escalier qui mène vers le souterrain.
+                <br> Cet escalier est inaccessible et il semble très sombre, vous ne pouvez pas voir le fond.
+                <br> Vous ne pouvez pas descendre sans pince pour débloquer la porte.
+            </p>
+        </div>
+    </div>
+
+    <div class="fgmodal" id="modal-B1-BC">
+        <div class="modal-header">
+            <div class="modal-title">Escalier vers le souterrain</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>
+                Vous avez trouvé un escalier qui mène vers le souterrain.
+                <br> Cet escalier est inaccessible et il semble très sombre, vous ne pouvez pas voir le fond.
+                <br> Vous ne pouvez pas descendre sans pince pour débloquer la porte.
+            </p>
+        </div>
+    </div>
+
+    <div class="fgmodal" id="modal-B1-BG">
+        <div class="modal-header">
+            <div class="modal-title">Escalier vers le souterrain</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>
+                Vous avez trouvé un escalier qui mène vers le souterrain.
+                <br> Cet escalier est inaccessible et il semble très sombre, vous ne pouvez pas voir le fond.
+                <br> Vous ne pouvez pas descendre sans pince pour débloquer la porte.
+            </p>
+        </div>
+    </div>
+
+    <div class="fgmodal" id="modal-B1-BD ">
+        <div class="modal-header">
+            <div class="modal-title">Escalier vers le souterrain</div>
+            <button data-close-button class="close-button">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p>
+                Vous avez trouvé un escalier qui mène vers le souterrain.
+                <br> Cet escalier est inaccessible et il semble très sombre, vous ne pouvez pas voir le fond.
+                <br> Vous ne pouvez pas descendre sans pince pour débloquer la porte.
+            </p>
+        </div>
+    </div>
+    
+    
+    
+    <!-- Overlay pour isoler les "modal" -->
+    
+    <div id="overlay"></div> 
+
+    <script src="../JS/modal.js"></script>
+    <script src="../JS/game-modal.js"></script>
+
+</body>

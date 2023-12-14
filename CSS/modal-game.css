@@ -1,0 +1,63 @@
+.fgmodal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(31, 30, 30);
+    width: 1500px;
+    max-width: 80%;
+    font-size: 40px;
+    color: rgb(168, 168, 168);
+    z-index: 1000;
+}
+
+.fgmodal.active {
+    transition: 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.fgmodal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.fgmodal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.fgmodal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(168, 168, 168);
+}
+
+.fgmodal-body {
+    padding: 10px 15px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0,0,0,.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: 300ms ease-in-out;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}

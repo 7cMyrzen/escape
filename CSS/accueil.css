@@ -7,6 +7,19 @@ body {
     align-items: center;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: .5s;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #181818;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: gold;
 }
 
 .header{
